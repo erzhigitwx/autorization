@@ -104,7 +104,7 @@ body {
   position: absolute;
   text-align: start;
   left: calc(100% - 63%);
-  top: 290px;
+  top: 280px;
   pointer-events: none;
   transition: all 0.4s ease-in-out;
 }
@@ -112,17 +112,17 @@ body {
   position: absolute;
   text-align: start;
   left: calc(100% - 63%);
-  top: 350px;
+  top: 340px;
   pointer-events: none;
   transition: all 0.4s ease-in-out;
 }
 .active-user {
-  top: 270px;
+  top: 260px;
   left: 720px;
   transition: all 0.4s ease;
 }
 .active-pin {
-  top: 330px;
+  top: 320px;
   left: 740px;
   transition: all 0.4s ease;
 }
@@ -183,10 +183,20 @@ body {
 }
 @media (max-width: 900px) {
   .form__user-des {
+    top: calc(100% - 60%);
     left: calc(100% - 72%);
   }
   .form__pin-des {
+    top: calc(100% - 53%);
     left: calc(100% - 72%);
+  }
+  .active-user{
+    top: calc(100% - 60%);
+    left: calc(100% - 55%);
+  }
+  .active-pin{
+    top: calc(100% - 55%);
+    left: calc(100% - 52%);
   }
 }
 @media (max-width: 720px) {
@@ -224,16 +234,20 @@ body {
 }
 @media (max-width: 470px) {
   .form__user-des{
+    top: calc(100% - 60%);
     left: calc(100% - 75%);
   }
   .form__pin-des{
+    top: calc(100% - 53%);
     left: calc(100% - 75%);
   }
   .active-user{
+    top: calc(100% - 65%);
     left: calc(100% - 60%);
   }
   .active-pin{
-    left: calc(100% - 57%);
+    top: calc(100% - 57%);
+    left: calc(100% - 56%);
   }
   .autorization__content{
     width: 300px;
