@@ -201,19 +201,19 @@ body {
 }
 @media (max-width: 720px) {
   .form__user-des {
-    top: 290px;
+    top: calc(100% - 62%);
     left: calc(100% - 70%);
   }
   .form__pin-des {
-    top: 350px;
+    top: calc(100% - 55%);
     left: calc(100% - 70%);
   }
   .active-user {
-    top: 270px;
+    top: calc(100% - 65%);
     left: calc(100% - 55%);
   }
   .active-pin {
-    top: 330px;
+    top: calc(100% - 55%);
     left: calc(100% - 53%);
   }
   .autorization__content {
@@ -261,15 +261,19 @@ body {
 }
 @media (max-width: 360px) {
   .form__user-des{
+    top: calc(100% - 62%);
     left: calc(100% - 83%);
   }
   .form__pin-des{
+    top: calc(100% - 53%);
     left: calc(100% - 83%);
   }
   .active-user{
+    top: calc(100% - 65%);
     left: calc(100% - 60%);
   }
   .active-pin{
+    top: calc(100% - 57%);
     left: calc(100% - 57%);
   }
 }
